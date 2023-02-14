@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22C65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ShareExtension" representedClassName="ShareExtension" syncable="YES" codeGenerationType="class">
+        <attribute name="baseURL" optional="YES" attributeType="String"/>
+        <attribute name="deleteURL" optional="YES" attributeType="String"/>
+        <attribute name="fetchDownloadsURL" optional="YES" attributeType="String"/>
+        <attribute name="pauseResumeURL" optional="YES" attributeType="String"/>
+        <attribute name="postURL" optional="YES" attributeType="String"/>
+        <attribute name="refreshInterval" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sendNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+</model>
